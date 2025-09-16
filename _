@@ -1,0 +1,366 @@
+Attaching to adminer, jupyter-1, mysql-1, datanode, datanode2, hive-metastore, hive-metastore-postgresql, hive-server, namenode, spark-master, spark-worker
+namenode                   | Configuring core
+datanode2                  | Configuring core
+datanode                   | Configuring core
+hive-metastore             | Configuring core
+datanode2                  |  - Setting hadoop.proxyuser.hue.hosts=*
+hive-metastore             |  - Setting hadoop.proxyuser.hue.hosts=*
+datanode                   |  - Setting hadoop.proxyuser.hue.hosts=*
+namenode                   |  - Setting hadoop.proxyuser.hue.hosts=*
+hive-server                | Configuring core
+hive-server                |  - Setting hadoop.proxyuser.hue.hosts=*
+hive-metastore             |  - Setting fs.defaultFS=hdfs://namenode:8020
+hive-server                |  - Setting fs.defaultFS=hdfs://namenode:8020
+datanode2                  |  - Setting fs.defaultFS=hdfs://namenode:8020
+datanode                   |  - Setting fs.defaultFS=hdfs://namenode:8020
+hive-server                |  - Setting hadoop.proxyuser.hue.groups=*
+hive-metastore             |  - Setting hadoop.proxyuser.hue.groups=*
+datanode2                  |  - Setting hadoop.proxyuser.hue.groups=*
+datanode                   |  - Setting hadoop.proxyuser.hue.groups=*
+hive-server                |  - Setting hadoop.http.staticuser.user=root
+hive-metastore             |  - Setting hadoop.http.staticuser.user=root
+hive-server                | Configuring hdfs
+datanode2                  |  - Setting hadoop.http.staticuser.user=root
+datanode                   |  - Setting hadoop.http.staticuser.user=root
+hive-metastore             | Configuring hdfs
+datanode2                  | Configuring hdfs
+datanode                   | Configuring hdfs
+namenode                   |  - Setting fs.defaultFS=hdfs://namenode:8020
+hive-server                |  - Setting dfs.permissions.enabled=false
+hive-metastore             |  - Setting dfs.permissions.enabled=false
+datanode2                  |  - Setting dfs.datanode.data.dir=file:///hadoop/dfs/data
+datanode                   |  - Setting dfs.datanode.data.dir=file:///hadoop/dfs/data
+namenode                   |  - Setting hadoop.proxyuser.hue.groups=*
+namenode                   |  - Setting hadoop.http.staticuser.user=root
+namenode                   | Configuring hdfs
+namenode                   |  - Setting dfs.namenode.name.dir=file:///hadoop/dfs/name
+datanode2                  |  - Setting dfs.permissions.enabled=false
+hive-server                |  - Setting dfs.webhdfs.enabled=true
+datanode2                  |  - Setting dfs.webhdfs.enabled=true
+hive-server                | Configuring yarn
+hive-server                |  - Setting yarn.resourcemanager.fs.state-store.uri=/rmstate
+datanode2                  | Configuring yarn
+datanode                   |  - Setting dfs.permissions.enabled=false
+hive-metastore             |  - Setting dfs.webhdfs.enabled=true
+datanode                   |  - Setting dfs.webhdfs.enabled=true
+hive-metastore             | Configuring yarn
+datanode2                  |  - Setting yarn.resourcemanager.fs.state-store.uri=/rmstate
+datanode                   | Configuring yarn
+namenode                   |  - Setting dfs.permissions.enabled=false
+datanode                   |  - Setting yarn.resourcemanager.fs.state-store.uri=/rmstate
+datanode2                  |  - Setting yarn.timeline-service.generic-application-history.enabled=true
+hive-metastore             |  - Setting yarn.resourcemanager.fs.state-store.uri=/rmstate
+namenode                   |  - Setting dfs.webhdfs.enabled=true
+datanode                   |  - Setting yarn.timeline-service.generic-application-history.enabled=true
+hive-server                |  - Setting yarn.timeline-service.generic-application-history.enabled=true
+datanode2                  |  - Setting yarn.resourcemanager.recovery.enabled=true
+namenode                   | Configuring yarn
+hive-server                |  - Setting yarn.resourcemanager.recovery.enabled=true
+hive-metastore             |  - Setting yarn.timeline-service.generic-application-history.enabled=true
+datanode                   |  - Setting yarn.resourcemanager.recovery.enabled=true
+datanode2                  |  - Setting yarn.timeline-service.enabled=true
+hive-server                |  - Setting yarn.log-aggregation-enable=true
+namenode                   |  - Setting yarn.resourcemanager.fs.state-store.uri=/rmstate
+datanode                   |  - Setting yarn.timeline-service.enabled=true
+datanode2                  |  - Setting yarn.log-aggregation-enable=true
+hive-metastore             |  - Setting yarn.resourcemanager.recovery.enabled=true
+hive-server                |  - Setting yarn.timeline-service.enabled=true
+namenode                   |  - Setting yarn.timeline-service.generic-application-history.enabled=true
+datanode2                  |  - Setting yarn.resourcemanager.store.class=org.apache.hadoop.yarn.server.resourcemanager.recovery.FileSystemRMStateStore
+hive-server                |  - Setting yarn.resourcemanager.store.class=org.apache.hadoop.yarn.server.resourcemanager.recovery.FileSystemRMStateStore
+hive-metastore             |  - Setting yarn.timeline-service.enabled=true
+datanode                   |  - Setting yarn.log-aggregation-enable=true
+datanode2                  |  - Setting yarn.resourcemanager.system-metrics-publisher.enabled=true
+namenode                   |  - Setting yarn.resourcemanager.recovery.enabled=true
+hive-server                |  - Setting yarn.resourcemanager.system-metrics-publisher.enabled=true
+hive-metastore             |  - Setting yarn.log-aggregation-enable=true
+datanode2                  |  - Setting yarn.nodemanager.remote-app-log-dir=/app-logs
+datanode                   |  - Setting yarn.resourcemanager.store.class=org.apache.hadoop.yarn.server.resourcemanager.recovery.FileSystemRMStateStore
+namenode                   |  - Setting yarn.log-aggregation-enable=true
+datanode2                  |  - Setting yarn.resourcemanager.resource.tracker.address=resourcemanager:8031
+hive-metastore             |  - Setting yarn.resourcemanager.store.class=org.apache.hadoop.yarn.server.resourcemanager.recovery.FileSystemRMStateStore
+hive-server                |  - Setting yarn.nodemanager.remote-app-log-dir=/app-logs
+datanode                   |  - Setting yarn.resourcemanager.system-metrics-publisher.enabled=true
+namenode                   |  - Setting yarn.timeline-service.enabled=true
+hive-metastore             |  - Setting yarn.resourcemanager.system-metrics-publisher.enabled=true
+datanode2                  |  - Setting yarn.resourcemanager.hostname=resourcemanager
+hive-server                |  - Setting yarn.resourcemanager.resource.tracker.address=resourcemanager:8031
+namenode                   |  - Setting yarn.resourcemanager.store.class=org.apache.hadoop.yarn.server.resourcemanager.recovery.FileSystemRMStateStore
+datanode                   |  - Setting yarn.nodemanager.remote-app-log-dir=/app-logs
+datanode2                  |  - Setting yarn.timeline-service.hostname=historyserver
+hive-metastore             |  - Setting yarn.nodemanager.remote-app-log-dir=/app-logs
+hive-server                |  - Setting yarn.resourcemanager.hostname=resourcemanager
+namenode                   |  - Setting yarn.resourcemanager.system-metrics-publisher.enabled=true
+datanode                   |  - Setting yarn.resourcemanager.resource.tracker.address=resourcemanager:8031
+datanode2                  |  - Setting yarn.log.server.url=http://historyserver:8188/applicationhistory/logs/
+hive-metastore             |  - Setting yarn.resourcemanager.resource.tracker.address=resourcemanager:8031
+hive-server                |  - Setting yarn.timeline-service.hostname=historyserver
+namenode                   |  - Setting yarn.nodemanager.remote-app-log-dir=/app-logs
+datanode2                  |  - Setting yarn.resourcemanager.scheduler.address=resourcemanager:8030
+hive-server                |  - Setting yarn.log.server.url=http://historyserver:8188/applicationhistory/logs/
+datanode                   |  - Setting yarn.resourcemanager.hostname=resourcemanager
+datanode2                  |  - Setting yarn.resourcemanager.address=resourcemanager:8032
+hive-metastore             |  - Setting yarn.resourcemanager.hostname=resourcemanager
+namenode                   |  - Setting yarn.resourcemanager.resource.tracker.address=resourcemanager:8031
+hive-server                |  - Setting yarn.resourcemanager.scheduler.address=resourcemanager:8030
+datanode2                  | Configuring httpfs
+datanode                   |  - Setting yarn.timeline-service.hostname=historyserver
+datanode2                  | Configuring kms
+hive-metastore             |  - Setting yarn.timeline-service.hostname=historyserver
+datanode2                  | Configuring mapred
+hive-server                |  - Setting yarn.resourcemanager.address=resourcemanager:8032
+hive-metastore             |  - Setting yarn.log.server.url=http://historyserver:8188/applicationhistory/logs/
+datanode2                  | Configuring for multihomed network
+hive-server                | Configuring httpfs
+namenode                   |  - Setting yarn.resourcemanager.hostname=resourcemanager
+datanode                   |  - Setting yarn.log.server.url=http://historyserver:8188/applicationhistory/logs/
+hive-metastore             |  - Setting yarn.resourcemanager.scheduler.address=resourcemanager:8030
+hive-server                | Configuring kms
+hive-server                | Configuring mapred
+namenode                   |  - Setting yarn.timeline-service.hostname=historyserver
+hive-metastore             |  - Setting yarn.resourcemanager.address=resourcemanager:8032
+datanode                   |  - Setting yarn.resourcemanager.scheduler.address=resourcemanager:8030
+hive-server                | Configuring hive
+hive-metastore             | Configuring httpfs
+namenode                   |  - Setting yarn.log.server.url=http://historyserver:8188/applicationhistory/logs/
+hive-metastore             | Configuring kms
+hive-metastore             | Configuring mapred
+hive-server                |  - Setting hive.metastore.uris=thrift://hive-metastore:9083
+datanode                   |  - Setting yarn.resourcemanager.address=resourcemanager:8032
+hive-metastore             | Configuring hive
+namenode                   |  - Setting yarn.resourcemanager.scheduler.address=resourcemanager:8030
+datanode                   | Configuring httpfs
+datanode                   | Configuring kms
+hive-metastore             |  - Setting hive.metastore.uris=thrift://hive-metastore:9083
+datanode                   | Configuring mapred
+namenode                   |  - Setting yarn.resourcemanager.address=resourcemanager:8032
+hive-metastore             |  - Setting datanucleus.autoCreateSchema=false
+hive-server                |  - Setting datanucleus.autoCreateSchema=false
+datanode                   | Configuring for multihomed network
+namenode                   | Configuring httpfs
+namenode                   | Configuring kms
+namenode                   | Configuring mapred
+hive-metastore             |  - Setting javax.jdo.option.ConnectionURL=jdbc:postgresql://hive-metastore-postgresql/metastore
+hive-server                |  - Setting javax.jdo.option.ConnectionURL=jdbc:postgresql://hive-metastore-postgresql/metastore
+namenode                   | Configuring for multihomed network
+hive-metastore             |  - Setting javax.jdo.option.ConnectionDriverName=org.postgresql.Driver
+hive-server                |  - Setting javax.jdo.option.ConnectionDriverName=org.postgresql.Driver
+hive-metastore             |  - Setting javax.jdo.option.ConnectionPassword=hive
+hive-server                |  - Setting javax.jdo.option.ConnectionPassword=hive
+hive-metastore             |  - Setting javax.jdo.option.ConnectionUserName=hive
+hive-server                |  - Setting javax.jdo.option.ConnectionUserName=hive
+hive-server                | Configuring for multihomed network
+hive-metastore             | Configuring for multihomed network
+datanode2                  | [1/100] check for namenode:50070...
+datanode2                  | [1/100] namenode:50070 is not available yet
+datanode2                  | [1/100] try in 5s once again ...
+datanode                   | [1/100] check for namenode:50070...
+datanode                   | [1/100] namenode:50070 is not available yet
+datanode                   | [1/100] try in 5s once again ...
+hive-server                | [1/100] check for hive-metastore:9083...
+hive-server                | [1/100] hive-metastore:9083 is not available yet
+hive-server                | [1/100] try in 5s once again ...
+hive-metastore             | [1/100] check for namenode:50070...
+hive-metastore             | [1/100] namenode:50070 is not available yet
+hive-metastore             | [1/100] try in 5s once again ...
+namenode                   | Formatting namenode name directory: /hadoop/dfs/name
+datanode                   | [2/100] check for namenode:50070...
+hive-metastore             | [2/100] check for namenode:50070...
+hive-metastore             | [2/100] namenode:50070 is not available yet
+datanode                   | [2/100] namenode:50070 is not available yet
+datanode                   | [2/100] try in 5s once again ...
+hive-metastore             | [2/100] try in 5s once again ...
+hive-server                | [2/100] check for hive-metastore:9083...
+hive-server                | [2/100] hive-metastore:9083 is not available yet
+hive-server                | [2/100] try in 5s once again ...
+datanode2                  | [2/100] check for namenode:50070...
+datanode2                  | [2/100] namenode:50070 is not available yet
+datanode2                  | [2/100] try in 5s once again ...
+hive-server                | [3/100] check for hive-metastore:9083...
+hive-server                | [3/100] hive-metastore:9083 is not available yet
+hive-server                | [3/100] try in 5s once again ...
+datanode2                  | [3/100] check for namenode:50070...
+datanode2                  | [3/100] namenode:50070 is not available yet
+datanode2                  | [3/100] try in 5s once again ...
+datanode                   | [3/100] check for namenode:50070...
+hive-metastore             | [3/100] check for namenode:50070...
+hive-metastore             | [3/100] namenode:50070 is not available yet
+hive-metastore             | [3/100] try in 5s once again ...
+datanode                   | [3/100] namenode:50070 is not available yet
+datanode                   | [3/100] try in 5s once again ...
+spark-master               | 2025-09-15 23:28:41 INFO  Master:2566 - Started daemon with process name: 13@426a5a904fd3
+spark-worker               | 2025-09-15 23:28:41 INFO  Worker:2566 - Started daemon with process name: 12@ca9a3caa99ff
+spark-master               | 2025-09-15 23:28:41 INFO  SignalUtils:54 - Registered signal handler for TERM
+spark-master               | 2025-09-15 23:28:41 INFO  SignalUtils:54 - Registered signal handler for HUP
+spark-master               | 2025-09-15 23:28:41 INFO  SignalUtils:54 - Registered signal handler for INT
+spark-worker               | 2025-09-15 23:28:41 INFO  SignalUtils:54 - Registered signal handler for TERM
+spark-worker               | 2025-09-15 23:28:41 INFO  SignalUtils:54 - Registered signal handler for HUP
+spark-worker               | 2025-09-15 23:28:41 INFO  SignalUtils:54 - Registered signal handler for INT
+namenode                   | Formatting using clusterid: CID-104d07a8-97e3-4b08-b72f-28f81e020c27
+spark-master               | 2025-09-15 23:28:43 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+spark-worker               | 2025-09-15 23:28:43 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+spark-worker               | 2025-09-15 23:28:43 INFO  SecurityManager:54 - Changing view acls to: root
+spark-master               | 2025-09-15 23:28:43 INFO  SecurityManager:54 - Changing view acls to: root
+spark-worker               | 2025-09-15 23:28:43 INFO  SecurityManager:54 - Changing modify acls to: root
+spark-master               | 2025-09-15 23:28:43 INFO  SecurityManager:54 - Changing modify acls to: root
+spark-worker               | 2025-09-15 23:28:43 INFO  SecurityManager:54 - Changing view acls groups to: 
+spark-master               | 2025-09-15 23:28:43 INFO  SecurityManager:54 - Changing view acls groups to: 
+spark-worker               | 2025-09-15 23:28:43 INFO  SecurityManager:54 - Changing modify acls groups to: 
+spark-master               | 2025-09-15 23:28:43 INFO  SecurityManager:54 - Changing modify acls groups to: 
+spark-worker               | 2025-09-15 23:28:43 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+spark-master               | 2025-09-15 23:28:43 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+hive-server                | [4/100] check for hive-metastore:9083...
+hive-server                | [4/100] hive-metastore:9083 is not available yet
+hive-server                | [4/100] try in 5s once again ...
+datanode                   | [4/100] check for namenode:50070...
+datanode                   | [4/100] namenode:50070 is not available yet
+datanode                   | [4/100] try in 5s once again ...
+datanode2                  | [4/100] check for namenode:50070...
+datanode2                  | [4/100] namenode:50070 is not available yet
+datanode2                  | [4/100] try in 5s once again ...
+hive-metastore             | [4/100] check for namenode:50070...
+hive-metastore             | [4/100] namenode:50070 is not available yet
+hive-metastore             | [4/100] try in 5s once again ...
+spark-master               | 2025-09-15 23:28:45 INFO  Utils:54 - Successfully started service 'sparkMaster' on port 7077.
+spark-worker               | 2025-09-15 23:28:45 INFO  Utils:54 - Successfully started service 'sparkWorker' on port 36315.
+spark-master               | 2025-09-15 23:28:45 INFO  Master:54 - Starting Spark master at spark://426a5a904fd3:7077
+spark-master               | 2025-09-15 23:28:45 INFO  Master:54 - Running Spark version 2.4.0
+spark-master               | 2025-09-15 23:28:45 INFO  log:192 - Logging initialized @13579ms
+spark-master               | 2025-09-15 23:28:46 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+spark-master               | 2025-09-15 23:28:46 INFO  Server:419 - Started @13965ms
+spark-worker               | 2025-09-15 23:28:46 INFO  Worker:54 - Starting Spark worker 172.27.1.11:36315 with 2 cores, 6.8 GB RAM
+spark-master               | 2025-09-15 23:28:46 INFO  AbstractConnector:278 - Started ServerConnector@1ef7aa7e{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+spark-master               | 2025-09-15 23:28:46 INFO  Utils:54 - Successfully started service 'MasterUI' on port 8080.
+spark-worker               | 2025-09-15 23:28:46 INFO  Worker:54 - Running Spark version 2.4.0
+spark-worker               | 2025-09-15 23:28:46 INFO  Worker:54 - Spark home: /spark
+spark-worker               | 2025-09-15 23:28:46 INFO  log:192 - Logging initialized @14112ms
+spark-master               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@36480a0a{/app,null,AVAILABLE,@Spark}
+spark-master               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4666d6f7{/app/json,null,AVAILABLE,@Spark}
+spark-master               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@43b87784{/,null,AVAILABLE,@Spark}
+spark-master               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3bc8c46a{/json,null,AVAILABLE,@Spark}
+spark-master               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4be96c8a{/static,null,AVAILABLE,@Spark}
+spark-master               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@36f0a108{/app/kill,null,AVAILABLE,@Spark}
+spark-master               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@60999e6c{/driver/kill,null,AVAILABLE,@Spark}
+spark-worker               | 2025-09-15 23:28:46 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+spark-master               | 2025-09-15 23:28:46 INFO  MasterWebUI:54 - Bound MasterWebUI to 0.0.0.0, and started at http://426a5a904fd3:8080
+spark-worker               | 2025-09-15 23:28:46 INFO  Server:419 - Started @14285ms
+spark-worker               | 2025-09-15 23:28:46 INFO  AbstractConnector:278 - Started ServerConnector@68a3fc94{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+spark-worker               | 2025-09-15 23:28:46 INFO  Utils:54 - Successfully started service 'WorkerUI' on port 8081.
+spark-worker               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5d9eaf9e{/logPage,null,AVAILABLE,@Spark}
+spark-worker               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@51fd9ab8{/logPage/json,null,AVAILABLE,@Spark}
+spark-worker               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@245c545d{/,null,AVAILABLE,@Spark}
+spark-worker               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@625990b6{/json,null,AVAILABLE,@Spark}
+spark-worker               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5f4cfe1f{/static,null,AVAILABLE,@Spark}
+spark-worker               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@710f1944{/log,null,AVAILABLE,@Spark}
+spark-worker               | 2025-09-15 23:28:46 INFO  WorkerWebUI:54 - Bound WorkerWebUI to 0.0.0.0, and started at http://ca9a3caa99ff:8081
+spark-worker               | 2025-09-15 23:28:46 INFO  Worker:54 - Connecting to master spark-master:7077...
+spark-worker               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@16dbb934{/metrics/json,null,AVAILABLE,@Spark}
+spark-master               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@20d665c9{/metrics/master/json,null,AVAILABLE,@Spark}
+spark-master               | 2025-09-15 23:28:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6110e53{/metrics/applications/json,null,AVAILABLE,@Spark}
+spark-master               | 2025-09-15 23:28:46 INFO  Master:54 - I have been elected leader! New state: ALIVE
+spark-worker               | 2025-09-15 23:28:47 INFO  TransportClientFactory:267 - Successfully created connection to spark-master/172.27.1.10:7077 after 192 ms (0 ms spent in bootstraps)
+spark-master               | 2025-09-15 23:28:47 INFO  Master:54 - Registering worker 172.27.1.11:36315 with 2 cores, 6.8 GB RAM
+spark-worker               | 2025-09-15 23:28:47 INFO  Worker:54 - Successfully registered with master spark://426a5a904fd3:7077
+hive-server                | [5/100] check for hive-metastore:9083...
+hive-server                | [5/100] hive-metastore:9083 is not available yet
+hive-server                | [5/100] try in 5s once again ...
+datanode                   | [5/100] namenode:50070 is available.
+datanode2                  | [5/100] namenode:50070 is available.
+hive-metastore             | [5/100] namenode:50070 is available.
+hive-metastore             | [1/100] check for datanode:50075...
+hive-metastore             | [1/100] datanode:50075 is not available yet
+hive-metastore             | [1/100] try in 5s once again ...
+hive-server                | [6/100] check for hive-metastore:9083...
+hive-server                | [6/100] hive-metastore:9083 is not available yet
+hive-server                | [6/100] try in 5s once again ...
+hive-metastore             | [2/100] datanode:50075 is available.
+hive-metastore             | [1/100] hive-metastore-postgresql:5432 is available.
+hive-metastore             | 2025-09-15 23:28:54: Starting Hive Metastore Server
+hive-server                | [7/100] check for hive-metastore:9083...
+hive-server                | [7/100] hive-metastore:9083 is not available yet
+hive-server                | [7/100] try in 5s once again ...
+hive-metastore             | 2025-09-15T23:29:02,213 INFO [main] org.apache.hadoop.hive.conf.HiveConf - Found configuration file file:/opt/hive/conf/hive-site.xml
+hive-server                | [8/100] check for hive-metastore:9083...
+hive-server                | [8/100] hive-metastore:9083 is not available yet
+hive-server                | [8/100] try in 5s once again ...
+hive-metastore             | 2025-09-15T23:29:05,347 INFO [main] org.apache.hadoop.hive.metastore.HiveMetaStore - STARTUP_MSG: 
+hive-metastore             | /************************************************************
+hive-metastore             | STARTUP_MSG: Starting HiveMetaStore
+hive-metastore             | STARTUP_MSG:   host = 9d05b5cbb8f8/172.27.1.8
+hive-metastore             | STARTUP_MSG:   args = []
+hive-metastore             | STARTUP_MSG:   version = 2.3.2
+hive-metastore             | STARTUP_MSG:   classpath = /opt/hive/conf:/opt/hive/lib/HikariCP-2.5.1.jar:/opt/hive/lib/RoaringBitmap-0.5.18.jar:/opt/hive/lib/ST4-4.0.4.jar:/opt/hive/lib/accumulo-core-1.6.0.jar:/opt/hive/lib/accumulo-fate-1.6.0.jar:/opt/hive/lib/accumulo-start-1.6.0.jar:/opt/hive/lib/accumulo-trace-1.6.0.jar:/opt/hive/lib/activation-1.1.jar:/opt/hive/lib/aether-api-0.9.0.M2.jar:/opt/hive/lib/aether-connector-file-0.9.0.M2.jar:/opt/hive/lib/aether-connector-okhttp-0.0.9.jar:/opt/hive/lib/aether-impl-0.9.0.M2.jar:/opt/hive/lib/aether-spi-0.9.0.M2.jar:/opt/hive/lib/aether-util-0.9.0.M2.jar:/opt/hive/lib/aircompressor-0.3.jar:/opt/hive/lib/airline-0.7.jar:/opt/hive/lib/ant-1.6.5.jar:/opt/hive/lib/ant-1.9.1.jar:/opt/hive/lib/ant-launcher-1.9.1.jar:/opt/hive/lib/antlr-runtime-3.5.2.jar:/opt/hive/lib/antlr4-runtime-4.5.jar:/opt/hive/lib/asm-3.1.jar:/opt/hive/lib/asm-commons-3.1.jar:/opt/hive/lib/asm-tree-3.1.jar:/opt/hive/lib/avatica-1.8.0.jar:/opt/hive/lib/avatica-metrics-1.8.0.jar:/opt/hive/lib/avro-1.7.7.jar:/opt/hive/lib/bonecp-0.8.0.RELEASE.jar:/opt/hive/lib/bytebuffer-collections-0.2.5.jar:/opt/hive/lib/calcite-core-1.10.0.jar:/opt/hive/lib/calcite-druid-1.10.0.jar:/opt/hive/lib/calcite-linq4j-1.10.0.jar:/opt/hive/lib/classmate-1.0.0.jar:/opt/hive/lib/commons-cli-1.2.jar:/opt/hive/lib/commons-codec-1.4.jar:/opt/hive/lib/commons-collections-3.2.2.jar:/opt/hive/lib/commons-compiler-2.7.6.jar:/opt/hive/lib/commons-compress-1.9.jar:/opt/hive/lib/commons-dbcp-1.4.jar:/opt/hive/lib/commons-dbcp2-2.0.1.jar:/opt/hive/lib/commons-el-1.0.jar:/opt/hive/lib/commons-httpclient-3.0.1.jar:/opt/hive/lib/commons-io-2.4.jar:/opt/hive/lib/commons-lang-2.6.jar:/opt/hive/lib/commons-lang3-3.1.jar:/opt/hive/lib/commons-logging-1.2.jar:/opt/hive/lib/commons-math-2.2.jar:/opt/hive/lib/commons-math3-3.6.1.jar:/opt/hive/lib/commons-pool-1.5.4.jar:/opt/hive/lib/commons-pool2-2.2.jar:/opt/hive/lib/commons-vfs2-2.0.jar:/opt/hive/lib/compress-lzf-1.0.3.jar:/opt/hive/lib/config-magic-0.9.jar:/opt/hive/lib/curator-client-2.7.1.jar:/opt/hive/lib/curator-framework-2.7.1.jar:/opt/hive/lib/curator-recipes-2.7.1.jar:/opt/hive/lib/curator-x-discovery-2.11.0.jar:/opt/hive/lib/datanucleus-api-jdo-4.2.4.jar:/opt/hive/lib/datanucleus-core-4.1.17.jar:/opt/hive/lib/datanucleus-rdbms-4.1.19.jar:/opt/hive/lib/derby-10.10.2.0.jar:/opt/hive/lib/derbyclient-10.11.1.1.jar:/opt/hive/lib/derbynet-10.11.1.1.jar:/opt/hive/lib/disruptor-3.3.0.jar:/opt/hive/lib/dropwizard-metrics-hadoop-metrics2-reporter-0.1.2.jar:/opt/hive/lib/druid-api-0.9.2.jar:/opt/hive/lib/druid-common-0.9.2.jar:/opt/hive/lib/druid-console-0.0.2.jar:/opt/hive/lib/druid-hdfs-storage-0.9.2.jar:/opt/hive/lib/druid-processing-0.9.2.jar:/opt/hive/lib/druid-server-0.9.2.jar:/opt/hive/lib/eigenbase-properties-1.1.5.jar:/opt/hive/lib/emitter-0.3.6.jar:/opt/hive/lib/extendedset-1.3.10.jar:/opt/hive/lib/findbugs-annotations-1.3.9-1.jar:/opt/hive/lib/geoip2-0.4.0.jar:/opt/hive/lib/geronimo-annotation_1.0_spec-1.1.1.jar:/opt/hive/lib/geronimo-jaspic_1.0_spec-1.0.jar:/opt/hive/lib/geronimo-jta_1.1_spec-1.1.1.jar:/opt/hive/lib/google-http-client-jackson2-1.15.0-rc.jar:/opt/hive/lib/groovy-all-2.4.4.jar:/opt/hive/lib/gson-2.2.4.jar:/opt/hive/lib/guava-14.0.1.jar:/opt/hive/lib/guice-multibindings-4.1.0.jar:/opt/hive/lib/guice-servlet-4.1.0.jar:/opt/hive/lib/hbase-annotations-1.1.1.jar:/opt/hive/lib/hbase-client-1.1.1.jar:/opt/hive/lib/hbase-common-1.1.1-tests.jar:/opt/hive/lib/hbase-common-1.1.1.jar:/opt/hive/lib/hbase-hadoop-compat-1.1.1.jar:/opt/hive/lib/hbase-hadoop2-compat-1.1.1-tests.jar:/opt/hive/lib/hbase-hadoop2-compat-1.1.1.jar:/opt/hive/lib/hbase-prefix-tree-1.1.1.jar:/opt/hive/lib/hbase-procedure-1.1.1.jar:/opt/hive/lib/hbase-protocol-1.1.1.jar:/opt/hive/lib/hbase-server-1.1.1.jar:/opt/hive/lib/hibernate-validator-5.1.3.Final.jar:/opt/hive/lib/hive-accumulo-handler-2.3.2.jar:/opt/hive/lib/hive-beeline-2.3.2.jar:/opt/hive/lib/hive-cli-2.3.2.jar:/opt/hive/lib/hive-common-2.3.2.jar:/opt/hive/lib/hive-contrib-2.3.2.jar:/opt/hive/lib/hive-druid-handler-2.3.2.jar:/opt/hive/lib/hive-exec-2.3.2.jar:/opt/hive/lib/hive-hbase-handler-2.3.2.jar:/opt/hive/lib/hive-hcatalog-core-2.3.2.jar:/opt/hive/lib/hive-hcatalog-server-extensions-2.3.2.jar:/opt/hive/lib/hive-hplsql-2.3.2.jar:/opt/hive/lib/hive-jdbc-2.3.2.jar:/opt/hive/lib/hive-jdbc-handler-2.3.2.jar:/opt/hive/lib/hive-llap-client-2.3.2.jar:/opt/hive/lib/hive-llap-common-2.3.2-tests.jar:/opt/hive/lib/hive-llap-common-2.3.2.jar:/opt/hive/lib/hive-llap-ext-client-2.3.2.jar:/opt/hive/lib/hive-llap-server-2.3.2.jar:/opt/hive/lib/hive-llap-tez-2.3.2.jar:/opt/hive/lib/hive-metastore-2.3.2.jar:/opt/hive/lib/hive-serde-2.3.2.jar:/opt/hive/lib/hive-service-2.3.2.jar:/opt/hive/lib/hive-service-rpc-2.3.2.jar:/opt/hive/lib/hive-shims-0.23-2.3.2.jar:/opt/hive/lib/hive-shims-2.3.2.jar:/opt/hive/lib/hive-shims-common-2.3.2.jar:/opt/hive/lib/hive-shims-scheduler-2.3.2.jar:/opt/hive/lib/hive-storage-api-2.4.0.jar:/opt/hive/lib/hive-testutils-2.3.2.jar:/opt/hive/lib/hive-vector-code-gen-2.3.2.jar:/opt/hive/lib/htrace-core-3.1.0-incubating.jar:/opt/hive/lib/http-client-1.0.4.jar:/opt/hive/lib/httpclient-4.4.jar:/opt/hive/lib/httpcore-4.4.jar:/opt/hive/lib/icu4j-4.8.1.jar:/opt/hive/lib/irc-api-1.0-0014.jar:/opt/hive/lib/ivy-2.4.0.jar:/opt/hive/lib/jackson-annotations-2.6.0.jar:/opt/hive/lib/jackson-core-2.6.5.jar:/opt/hive/lib/jackson-databind-2.6.5.jar:/opt/hive/lib/jackson-dataformat-smile-2.4.6.jar:/opt/hive/lib/jackson-datatype-guava-2.4.6.jar:/opt/hive/lib/jackson-datatype-joda-2.4.6.jar:/opt/hive/lib/jackson-jaxrs-1.9.13.jar:/opt/hive/lib/jackson-jaxrs-base-2.4.6.jar:/opt/hive/lib/jackson-jaxrs-json-provider-2.4.6.jar:/opt/hive/lib/jackson-jaxrs-smile-provider-2.4.6.jar:/opt/hive/lib/jackson-module-jaxb-annotations-2.4.6.jar:/opt/hive/lib/jackson-xc-1.9.13.jar:/opt/hive/lib/jamon-runtime-2.3.1.jar:/opt/hive/lib/janino-2.7.6.jar:/opt/hive/lib/jasper-compiler-5.5.23.jar:/opt/hive/lib/jasper-runtime-5.5.23.jar:/opt/hive/lib/java-util-0.27.10.jar:/opt/hive/lib/javax.el-3.0.0.jar:/opt/hive/lib/javax.el-api-3.0.0.jar:/opt/hive/lib/javax.inject-1.jar:/opt/hive/lib/javax.jdo-3.2.0-m3.jar:/opt/hive/lib/javax.servlet-3.0.0.v201112011016.jar:/opt/hive/lib/javax.servlet-api-3.1.0.jar:/opt/hive/lib/javolution-5.5.1.jar:/opt/hive/lib/jboss-logging-3.1.3.GA.jar:/opt/hive/lib/jcodings-1.0.8.jar:/opt/hive/lib/jcommander-1.32.jar:/opt/hive/lib/jdbi-2.63.1.jar:/opt/hive/lib/jdo-api-3.0.1.jar:/opt/hive/lib/jersey-client-1.9.jar:/opt/hive/lib/jersey-guice-1.19.jar:/opt/hive/lib/jersey-server-1.14.jar:/opt/hive/lib/jettison-1.1.jar:/opt/hive/lib/jetty-6.1.26.jar:/opt/hive/lib/jetty-all-7.6.0.v20120127.jar:/opt/hive/lib/jetty-client-9.2.5.v20141112.jar:/opt/hive/lib/jetty-continuation-9.2.5.v20141112.jar:/opt/hive/lib/jetty-http-9.2.5.v20141112.jar:/opt/hive/lib/jetty-io-9.2.5.v20141112.jar:/opt/hive/lib/jetty-proxy-9.2.5.v20141112.jar:/opt/hive/lib/jetty-security-9.2.5.v20141112.jar:/opt/hive/lib/jetty-server-9.2.5.v20141112.jar:/opt/hive/lib/jetty-servlet-9.2.5.v20141112.jar:/opt/hive/lib/jetty-servlets-9.2.5.v20141112.jar:/opt/hive/lib/jetty-sslengine-6.1.26.jar:/opt/hive/lib/jetty-util-6.1.26.jar:/opt/hive/lib/jetty-util-9.2.5.v20141112.jar:/opt/hive/lib/jline-2.12.jar:/opt/hive/lib/joda-time-2.8.1.jar:/opt/hive/lib/joni-2.1.2.jar:/opt/hive/lib/jpam-1.1.jar:/opt/hive/lib/json-1.8.jar:/opt/hive/lib/json-path-2.1.0.jar:/opt/hive/lib/jsp-2.1-6.1.14.jar:/opt/hive/lib/jsp-api-2.0.jar:/opt/hive/lib/jsp-api-2.1-6.1.14.jar:/opt/hive/lib/jsp-api-2.1.jar:/opt/hive/lib/jsr305-3.0.0.jar:/opt/hive/lib/jta-1.1.jar:/opt/hive/lib/libfb303-0.9.3.jar:/opt/hive/lib/libthrift-0.9.3.jar:/opt/hive/lib/log4j-1.2-api-2.6.2.jar:/opt/hive/lib/log4j-api-2.6.2.jar:/opt/hive/lib/log4j-core-2.6.2.jar:/opt/hive/lib/log4j-jul-2.5.jar:/opt/hive/lib/log4j-slf4j-impl-2.6.2.jar:/opt/hive/lib/log4j-web-2.6.2.jar:/opt/hive/lib/lz4-1.3.0.jar:/opt/hive/lib/mail-1.4.1.jar:/opt/hive/lib/mapdb-1.0.8.jar:/opt/hive/lib/maven-aether-provider-3.1.1.jar:/opt/hive/lib/maven-model-3.1.1.jar:/opt/hive/lib/maven-model-builder-3.1.1.jar:/opt/hive/lib/maven-repository-metadata-3.1.1.jar:/opt/hive/lib/maven-scm-api-1.4.jar:/opt/hive/lib/maven-scm-provider-svn-commons-1.4.jar:/opt/hive/lib/maven-scm-provider-svnexe-1.4.jar:/opt/hive/lib/maven-settings-3.1.1.jar:/opt/hive/lib/maven-settings-builder-3.1.1.jar:/opt/hive/lib/maxminddb-0.2.0.jar:/opt/hive/lib/metrics-core-2.2.0.jar:/opt/hive/lib/metrics-core-3.1.0.jar:/opt/hive/lib/metrics-json-3.1.0.jar:/opt/hive/lib/metrics-jvm-3.1.0.jar:/opt/hive/lib/mysql-metadata-storage-0.9.2.jar:/opt/hive/lib/netty-3.6.2.Final.jar:/opt/hive/lib/netty-all-4.0.52.Final.jar:/opt/hive/lib/okhttp-1.0.2.jar:/opt/hive/lib/opencsv-2.3.jar:/opt/hive/lib/orc-core-1.3.3.jar:/opt/hive/lib/org.abego.treelayout.core-1.0.1.jar:/opt/hive/lib/paranamer-2.3.jar:/opt/hive/lib/parquet-hadoop-bundle-1.8.1.jar:/opt/hive/lib/pentaho-aggdesigner-algorithm-5.1.5-jhyde.jar:/opt/hive/lib/plexus-interpolation-1.19.jar:/opt/hive/lib/plexus-utils-3.0.15.jar:/opt/hive/lib/postgresql-9.4.1208.jre7.jar:/opt/hive/lib/postgresql-jdbc.jar:/opt/hive/lib/postgresql-metadata-storage-0.9.2.jar:/opt/hive/lib/protobuf-java-2.5.0.jar:/opt/hive/lib/regexp-1.3.jar:/opt/hive/lib/rhino-1.7R5.jar:/opt/hive/lib/server-metrics-0.2.8.jar:/opt/hive/lib/servlet-api-2.4.jar:/opt/hive/lib/servlet-api-2.5-6.1.14.jar:/opt/hive/lib/slider-core-0.90.2-incubating.jar:/opt/hive/lib/snappy-java-1.0.5.jar:/opt/hive/lib/spymemcached-2.11.7.jar:/opt/hive/lib/stax-api-1.0.1.jar:/opt/hive/lib/super-csv-2.2.0.jar:/opt/hive/lib/tempus-fugit-1.1.jar:/opt/hive/lib/tesla-aether-0.0.5.jar:/opt/hive/lib/transaction-api-1.1.jar:/opt/hive/lib/validation-api-1.1.0.Final.jar:/opt/hive/lib/velocity-1.5.jar:/opt/hive/lib/wagon-provider-api-2.4.jar:/opt/hive/lib/zookeeper-3.4.6.jar::/opt/hadoop-2.7.4/share/hadoop/tools/lib/hadoop-distcp-2.7.4.jar:/opt/hadoop-2.7.4/contrib/capacity-scheduler/*.jar:/etc/hadoop:/opt/hadoop-2.7.4/share/hadoop/common/lib/jsch-0.1.54.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jersey-json-1.9.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jsp-api-2.1.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/log4j-1.2.17.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/stax-api-1.0-2.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-beanutils-core-1.8.0.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/activation-1.1.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/netty-3.6.2.Final.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/mockito-all-1.8.5.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-digester-1.8.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/java-xmlbuilder-0.4.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/slf4j-log4j12-1.7.10.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/servlet-api-2.5.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/snappy-java-1.0.4.1.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/httpcore-4.2.5.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-httpclient-3.1.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jetty-6.1.26.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/paranamer-2.3.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/guava-11.0.2.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/api-util-1.0.0-M20.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/curator-framework-2.7.1.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jaxb-impl-2.2.3-1.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/hamcrest-core-1.3.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jets3t-0.9.0.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jettison-1.1.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/gson-2.2.4.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/protobuf-java-2.5.0.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jersey-core-1.9.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/curator-client-2.7.1.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jetty-sslengine-6.1.26.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-beanutils-1.7.0.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/zookeeper-3.4.6.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/junit-4.11.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jersey-server-1.9.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-logging-1.1.3.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-configuration-1.6.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-math3-3.1.1.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/apacheds-kerberos-codec-2.0.0-M15.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-io-2.4.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/curator-recipes-2.7.1.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-net-3.1.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/htrace-core-3.1.0-incubating.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/asm-3.2.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/hadoop-annotations-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/httpclient-4.2.5.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-collections-3.2.2.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-compress-1.4.1.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/xmlenc-0.52.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/avro-1.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jetty-util-6.1.26.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-lang-2.6.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-codec-1.4.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/slf4j-api-1.7.10.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jackson-jaxrs-1.9.13.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jaxb-api-2.2.2.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jackson-xc-1.9.13.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/apacheds-i18n-2.0.0-M15.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/hadoop-auth-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/api-asn1-api-1.0.0-M20.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/jsr305-3.0.0.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/xz-1.0.jar:/opt/hadoop-2.7.4/share/hadoop/common/lib/commons-cli-1.2.jar:/opt/hadoop-2.7.4/share/hadoop/common/hadoop-common-2.7.4-tests.jar:/opt/hadoop-2.7.4/share/hadoop/common/hadoop-nfs-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/common/hadoop-common-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/log4j-1.2.17.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/netty-3.6.2.Final.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/servlet-api-2.5.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/jetty-6.1.26.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/guava-11.0.2.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/commons-daemon-1.0.13.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/xml-apis-1.3.04.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/protobuf-java-2.5.0.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/jersey-core-1.9.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/xercesImpl-2.9.1.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/jersey-server-1.9.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/commons-logging-1.1.3.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/commons-io-2.4.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/htrace-core-3.1.0-incubating.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/asm-3.2.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/netty-all-4.0.23.Final.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/xmlenc-0.52.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/jetty-util-6.1.26.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/leveldbjni-all-1.8.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/commons-lang-2.6.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/commons-codec-1.4.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/jsr305-3.0.0.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/lib/commons-cli-1.2.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/hadoop-hdfs-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/hadoop-hdfs-2.7.4-tests.jar:/opt/hadoop-2.7.4/share/hadoop/hdfs/hadoop-hdfs-nfs-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/zookeeper-3.4.6-tests.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jersey-json-1.9.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/aopalliance-1.0.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/log4j-1.2.17.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/stax-api-1.0-2.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/activation-1.1.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/netty-3.6.2.Final.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jersey-client-1.9.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/servlet-api-2.5.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jetty-6.1.26.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/guava-11.0.2.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jaxb-impl-2.2.3-1.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jettison-1.1.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/protobuf-java-2.5.0.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jersey-core-1.9.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/zookeeper-3.4.6.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jersey-server-1.9.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/commons-logging-1.1.3.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/commons-io-2.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/asm-3.2.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/guice-3.0.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/commons-collections-3.2.2.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/javax.inject-1.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/guice-servlet-3.0.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/commons-compress-1.4.1.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jetty-util-6.1.26.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/leveldbjni-all-1.8.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/commons-lang-2.6.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/commons-codec-1.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jackson-jaxrs-1.9.13.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jaxb-api-2.2.2.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jackson-xc-1.9.13.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jersey-guice-1.9.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/jsr305-3.0.0.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/xz-1.0.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/lib/commons-cli-1.2.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/hadoop-yarn-server-tests-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/hadoop-yarn-server-resourcemanager-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/hadoop-yarn-server-applicationhistoryservice-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/hadoop-yarn-server-web-proxy-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/hadoop-yarn-server-sharedcachemanager-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/hadoop-yarn-registry-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/hadoop-yarn-common-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/hadoop-yarn-client-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/hadoop-yarn-server-common-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/hadoop-yarn-api-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/hadoop-yarn-applications-distributedshell-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/hadoop-yarn-server-nodemanager-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/yarn/hadoop-yarn-applications-unmanaged-am-launcher-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/aopalliance-1.0.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/log4j-1.2.17.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/netty-3.6.2.Final.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/snappy-java-1.0.4.1.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/paranamer-2.3.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/hamcrest-core-1.3.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/protobuf-java-2.5.0.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/jersey-core-1.9.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/junit-4.11.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/jackson-core-asl-1.9.13.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/jackson-mapper-asl-1.9.13.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/jersey-server-1.9.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/commons-io-2.4.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/asm-3.2.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/hadoop-annotations-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/guice-3.0.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/javax.inject-1.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/guice-servlet-3.0.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/commons-compress-1.4.1.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/avro-1.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/leveldbjni-all-1.8.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/jersey-guice-1.9.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/lib/xz-1.0.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.4-tests.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.7.4.jar:/opt/hadoop-2.7.4/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.7.4.jar
+hive-metastore             | STARTUP_MSG:   build = git://stakiar-MBP.local/Users/stakiar/Desktop/scratch-space/apache-hive -r 857a9fd8ad725a53bd95c1b2d6612f9b1155f44d; compiled by 'stakiar' on Thu Nov 9 09:11:39 PST 2017
+hive-metastore             | ************************************************************/
+hive-metastore             | 2025-09-15T23:29:05,373 INFO [main] org.apache.hadoop.hive.metastore.HiveMetaStore - Starting hive metastore on port 9083
+hive-metastore             | 2025-09-15T23:29:05,548 INFO [main] org.apache.hadoop.hive.metastore.HiveMetaStore - 0: Opening raw store with implementation class:org.apache.hadoop.hive.metastore.ObjectStore
+hive-metastore             | 2025-09-15T23:29:08,946 INFO [main] org.apache.hadoop.hive.metastore.HiveMetaStore - Added admin role in metastore
+hive-metastore             | 2025-09-15T23:29:08,952 INFO [main] org.apache.hadoop.hive.metastore.HiveMetaStore - Added public role in metastore
+hive-metastore             | 2025-09-15T23:29:08,983 INFO [main] org.apache.hadoop.hive.metastore.HiveMetaStore - No user is added in admin role, since config is empty
+hive-metastore             | 2025-09-15T23:29:09,232 INFO [main] org.apache.hadoop.hive.metastore.HiveMetaStore - Starting DB backed MetaStore Server with SetUGI enabled
+hive-metastore             | 2025-09-15T23:29:09,246 INFO [main] org.apache.hadoop.hive.metastore.HiveMetaStore - Started the new metaserver on port [9083]...
+hive-metastore             | 2025-09-15T23:29:09,250 INFO [main] org.apache.hadoop.hive.metastore.HiveMetaStore - Options.minWorkerThreads = 200
+hive-metastore             | 2025-09-15T23:29:09,250 INFO [main] org.apache.hadoop.hive.metastore.HiveMetaStore - Options.maxWorkerThreads = 1000
+hive-metastore             | 2025-09-15T23:29:09,250 INFO [main] org.apache.hadoop.hive.metastore.HiveMetaStore - TCP keepalive = true
+hive-server                | [9/100] hive-metastore:9083 is available.
+hive-server                | 2025-09-15 23:29:17: Starting HiveServer2
+hive-metastore             | 2025-09-15T23:29:22,132 INFO [pool-7-thread-2] org.apache.hadoop.hive.metastore.HiveMetaStore - 1: source:172.27.1.7 get_all_functions
+hive-metastore             | 2025-09-15T23:29:22,248 INFO [pool-7-thread-2] org.apache.hadoop.hive.metastore.HiveMetaStore - 1: Opening raw store with implementation class:org.apache.hadoop.hive.metastore.ObjectStore
+hive-metastore             | 2025-09-15T23:29:22,430 INFO [pool-7-thread-2] org.apache.hadoop.hive.metastore.HiveMetaStore - 1: source:172.27.1.7 get_all_databases
+hive-metastore             | 2025-09-15T23:29:22,448 INFO [pool-7-thread-2] org.apache.hadoop.hive.metastore.HiveMetaStore - 1: source:172.27.1.7 get_all_tables: db=default
+hive-metastore             | 2025-09-15T23:29:22,624 INFO [pool-7-thread-2] org.apache.hadoop.hive.metastore.HiveMetaStore - 1: source:172.27.1.7 get_multi_table : db=default tbls=categories
+hive-metastore             | 2025-09-15T23:29:22,781 INFO [pool-7-thread-2] org.apache.hadoop.hive.metastore.HiveMetaStore - 1: source:172.27.1.7 get_all_tables: db=hive_alejandra
+hive-metastore             | 2025-09-15T23:29:22,786 INFO [pool-7-thread-2] org.apache.hadoop.hive.metastore.HiveMetaStore - 1: source:172.27.1.7 get_multi_table : db=hive_alejandra tbls=
+[Kmysql-1 exited with code 0
+mysql-1                    | 2025-09-16 00:05:08+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 9.4.0-1.el9 started.
+mysql-1                    | 2025-09-16 00:05:08+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+mysql-1                    | 2025-09-16 00:05:08+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 9.4.0-1.el9 started.
+mysql-1                    | 2025-09-16 00:05:09+00:00 [Note] [Entrypoint]: Initializing database files
+mysql-1                    | 2025-09-16 00:05:14+00:00 [Note] [Entrypoint]: Database files initialized
+mysql-1                    | 2025-09-16 00:05:14+00:00 [Note] [Entrypoint]: Starting temporary server
+mysql-1                    | 2025-09-16 00:05:15+00:00 [Note] [Entrypoint]: Temporary server started.
+mysql-1                    | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+mysql-1                    | 2025-09-16 00:05:18+00:00 [Note] [Entrypoint]: Creating database retail_db
+mysql-1                    | 
+mysql-1                    | 2025-09-16 00:05:18+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/data_warehouse_netflix.sql
+mysql-1                    | 
+mysql-1                    | 
+mysql-1                    | 2025-09-16 00:05:18+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/db_movies_neflix_transact.sql
+mysql-1                    | 
+mysql-1                    | 
+mysql-1                    | 2025-09-16 00:05:18+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/retail_db.sql
+mysql-1                    | 
+mysql-1                    | 
+mysql-1                    | 2025-09-16 00:05:23+00:00 [Note] [Entrypoint]: Stopping temporary server
+mysql-1                    | 2025-09-16 00:05:25+00:00 [Note] [Entrypoint]: Temporary server stopped
+mysql-1                    | 
+mysql-1                    | 2025-09-16 00:05:25+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+mysql-1                    | 
+[Kmysql-1 exited with code 0
+mysql-1                    | 2025-09-16 00:09:51+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 9.4.0-1.el9 started.
+mysql-1                    | 2025-09-16 00:09:52+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+mysql-1                    | 2025-09-16 00:09:52+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 9.4.0-1.el9 started.
+mysql-1                    | 2025-09-16 00:09:52+00:00 [Note] [Entrypoint]: Initializing database files
+mysql-1                    | 2025-09-16 00:09:58+00:00 [Note] [Entrypoint]: Database files initialized
+mysql-1                    | 2025-09-16 00:09:58+00:00 [Note] [Entrypoint]: Starting temporary server
+mysql-1                    | 2025-09-16 00:09:59+00:00 [Note] [Entrypoint]: Temporary server started.
+mysql-1                    | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+mysql-1                    | 2025-09-16 00:10:01+00:00 [Note] [Entrypoint]: Creating database retail_db
+mysql-1                    | 
+mysql-1                    | 2025-09-16 00:10:01+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/Alejandra_student-mat.sql
+mysql-1                    | 
+mysql-1                    | 
+mysql-1                    | 2025-09-16 00:10:01+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/data_warehouse_netflix.sql
+mysql-1                    | 
+mysql-1                    | 
+mysql-1                    | 2025-09-16 00:10:01+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/db_movies_neflix_transact.sql
+mysql-1                    | 
+mysql-1                    | 
+mysql-1                    | 2025-09-16 00:10:01+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/retail_db.sql
+mysql-1                    | 
+mysql-1                    | 
+mysql-1                    | 2025-09-16 00:10:07+00:00 [Note] [Entrypoint]: Stopping temporary server
+mysql-1                    | 2025-09-16 00:10:09+00:00 [Note] [Entrypoint]: Temporary server stopped
+mysql-1                    | 
+mysql-1                    | 2025-09-16 00:10:09+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+mysql-1                    | 
