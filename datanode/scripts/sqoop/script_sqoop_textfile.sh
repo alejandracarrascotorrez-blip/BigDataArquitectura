@@ -54,11 +54,11 @@ sqoop import \
 --delete-target-dir > /tmp/log_products.log
 
 sqoop import \
---connect "jdbc:mysql://10.0.0.199:3310/retail_db" \
+--connect "jdbc:mysql://mysql:3306/bd_alejandra" \
 --username=root \
 --password=root \
 --table student_mat \
 --split-by age \
 --as-textfile \
---target-dir=/user/datapath/datasets/products \
---delete-target-dir > /tmp/log_products.log
+--target-dir=/user/raw/mysql/bd_alejandra/t_student_mat \
+--delete-target-dir > /tmp/log_costumer.log

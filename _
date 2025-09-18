@@ -364,3 +364,31 @@ mysql-1                    | 2025-09-16 00:10:09+00:00 [Note] [Entrypoint]: Temp
 mysql-1                    | 
 mysql-1                    | 2025-09-16 00:10:09+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
 mysql-1                    | 
+[Kmysql-1 exited with code 0
+mysql-1                    | 2025-09-16 01:05:35+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 9.4.0-1.el9 started.
+mysql-1                    | 2025-09-16 01:05:36+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'
+mysql-1                    | 2025-09-16 01:05:36+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 9.4.0-1.el9 started.
+mysql-1                    | 2025-09-16 01:05:36+00:00 [Note] [Entrypoint]: Initializing database files
+mysql-1                    | 2025-09-16 01:05:41+00:00 [Note] [Entrypoint]: Database files initialized
+mysql-1                    | 2025-09-16 01:05:41+00:00 [Note] [Entrypoint]: Starting temporary server
+mysql-1                    | 2025-09-16 01:05:42+00:00 [Note] [Entrypoint]: Temporary server started.
+mysql-1                    | '/var/lib/mysql/mysql.sock' -> '/var/run/mysqld/mysqld.sock'
+mysql-1                    | 2025-09-16 01:05:44+00:00 [Note] [Entrypoint]: Creating database retail_db
+mysql-1                    | 
+mysql-1                    | 2025-09-16 01:05:44+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/Alejandra_math_student.sql
+mysql-1                    | 
+mysql-1                    | 
+mysql-1                    | 2025-09-16 01:05:44+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/data_warehouse_netflix.sql
+mysql-1                    | 
+mysql-1                    | 
+mysql-1                    | 2025-09-16 01:05:45+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/db_movies_neflix_transact.sql
+mysql-1                    | 
+mysql-1                    | 
+mysql-1                    | 2025-09-16 01:05:45+00:00 [Note] [Entrypoint]: /usr/local/bin/docker-entrypoint.sh: running /docker-entrypoint-initdb.d/retail_db.sql
+mysql-1                    | 
+mysql-1                    | 
+mysql-1                    | 2025-09-16 01:05:50+00:00 [Note] [Entrypoint]: Stopping temporary server
+mysql-1                    | 2025-09-16 01:05:51+00:00 [Note] [Entrypoint]: Temporary server stopped
+mysql-1                    | 
+mysql-1                    | 2025-09-16 01:05:51+00:00 [Note] [Entrypoint]: MySQL init process done. Ready for start up.
+mysql-1                    | 
